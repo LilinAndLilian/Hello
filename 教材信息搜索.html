@@ -1,0 +1,413 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>教材信息搜索</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/教材信息搜索/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/教材信息搜索/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u541" class="ax_default droplist">
+        <select id="u541_input">
+          <option value="课程名称">课程名称</option>
+          <option value="教材名称">教材名称</option>
+          <option value="任课教师">任课教师</option>
+        </select>
+      </div>
+
+      <!-- 搜索框 (文本框) -->
+      <div id="u542" class="ax_default text_field" data-label="搜索框">
+        <input id="u542_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u543" class="ax_default primary_button">
+        <div id="u543_div" class=""></div>
+        <div id="u543_text" class="text ">
+          <p><span>按课程名称搜索</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u544" class="ax_default primary_button">
+        <div id="u544_div" class=""></div>
+        <div id="u544_text" class="text ">
+          <p><span>返回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u545" class="ax_default _一级标题">
+        <div id="u545_div" class=""></div>
+        <div id="u545_text" class="text ">
+          <p><span>搜索教材信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u546" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u547" class="ax_default table_cell">
+          <img id="u547_img" class="img " src="images/教材信息表/u525.png"/>
+          <div id="u547_text" class="text ">
+            <p><span>课程名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u548" class="ax_default table_cell">
+          <img id="u548_img" class="img " src="images/教材信息表/u525.png"/>
+          <div id="u548_text" class="text ">
+            <p><span>任课教师</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u549" class="ax_default table_cell">
+          <img id="u549_img" class="img " src="images/教材信息表/u525.png"/>
+          <div id="u549_text" class="text ">
+            <p><span>教材名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u550" class="ax_default table_cell">
+          <img id="u550_img" class="img " src="images/教材信息表/u525.png"/>
+          <div id="u550_text" class="text ">
+            <p><span>学分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u551" class="ax_default table_cell">
+          <img id="u551_img" class="img " src="images/教材信息表/u525.png"/>
+          <div id="u551_text" class="text ">
+            <p><span>教材出版社</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u552" class="ax_default table_cell">
+          <img id="u552_img" class="img " src="images/教材信息表/u525.png"/>
+          <div id="u552_text" class="text ">
+            <p><span>书号（ISBN）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u553" class="ax_default table_cell">
+          <img id="u553_img" class="img " src="images/教材信息表/u531.png"/>
+          <div id="u553_text" class="text ">
+            <p><span>教材价格</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (中继器) -->
+      <div id="u554" class="ax_default">
+        <script id="u554_script" type="axure-repeater-template">
+
+          <!-- Unnamed (表格) -->
+          <div id="u555" class="ax_default u555">
+
+            <!-- 课程名称 (单元格) -->
+            <div id="u556" class="ax_default table_cell u556" data-label="课程名称">
+              <img id="u556_img" class="img u556_img" src="images/教材信息搜索/课程名称_u556.png"/>
+            </div>
+
+            <!-- 任课教师 (单元格) -->
+            <div id="u557" class="ax_default table_cell u557" data-label="任课教师">
+              <img id="u557_img" class="img u557_img" src="images/教材信息搜索/课程名称_u556.png"/>
+            </div>
+
+            <!-- 教材名称 (单元格) -->
+            <div id="u558" class="ax_default table_cell u558" data-label="教材名称">
+              <img id="u558_img" class="img u558_img" src="images/教材信息搜索/课程名称_u556.png"/>
+            </div>
+
+            <!-- 学分 (单元格) -->
+            <div id="u559" class="ax_default table_cell u559" data-label="学分">
+              <img id="u559_img" class="img u559_img" src="images/教材信息搜索/课程名称_u556.png"/>
+            </div>
+
+            <!-- 教材出版社 (单元格) -->
+            <div id="u560" class="ax_default table_cell u560" data-label="教材出版社">
+              <img id="u560_img" class="img u560_img" src="images/教材信息搜索/课程名称_u556.png"/>
+            </div>
+
+            <!-- 书号（ISBN） (单元格) -->
+            <div id="u561" class="ax_default table_cell u561" data-label="书号（ISBN）">
+              <img id="u561_img" class="img u561_img" src="images/教材信息搜索/课程名称_u556.png"/>
+            </div>
+
+            <!-- 价格 (单元格) -->
+            <div id="u562" class="ax_default table_cell u562" data-label="价格">
+              <img id="u562_img" class="img u562_img" src="images/教材信息搜索/价格_u562.png"/>
+            </div>
+          </div>
+        </script>
+        <div id="u554-1" class="preeval" style="width: 700px; height: 80px;">
+
+          <!-- Unnamed (表格) -->
+          <div id="u555-1" class="ax_default u555" style="visibility: inherit">
+
+            <!-- 课程名称 (单元格) -->
+            <div id="u556-1" class="ax_default table_cell u556" data-label="课程名称" style="width: 100px; height: 80px; left: 0px; top: 0px;visibility: inherit">
+              <img id="u556-1_img" class="img u556_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u556-1_text" class="text u556_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>高等数学I</span></p>
+              </div>
+            </div>
+
+            <!-- 任课教师 (单元格) -->
+            <div id="u557-1" class="ax_default table_cell u557" data-label="任课教师" style="width: 100px; height: 80px; left: 100px; top: 0px;visibility: inherit">
+              <img id="u557-1_img" class="img u557_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u557-1_text" class="text u557_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>杜萍</span></p>
+              </div>
+            </div>
+
+            <!-- 教材名称 (单元格) -->
+            <div id="u558-1" class="ax_default table_cell u558" data-label="教材名称" style="width: 100px; height: 80px; left: 200px; top: 0px;visibility: inherit">
+              <img id="u558-1_img" class="img u558_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u558-1_text" class="text u558_text" style="position: absolute;left: 2px;top: 25px;width: 96px;visibility: inherit">
+                <p><span>高等数学（第六版）上册</span></p>
+              </div>
+            </div>
+
+            <!-- 学分 (单元格) -->
+            <div id="u559-1" class="ax_default table_cell u559" data-label="学分" style="width: 100px; height: 80px; left: 300px; top: 0px;visibility: inherit">
+              <img id="u559-1_img" class="img u559_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u559-1_text" class="text u559_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>5</span></p>
+              </div>
+            </div>
+
+            <!-- 教材出版社 (单元格) -->
+            <div id="u560-1" class="ax_default table_cell u560" data-label="教材出版社" style="width: 100px; height: 80px; left: 400px; top: 0px;visibility: inherit">
+              <img id="u560-1_img" class="img u560_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u560-1_text" class="text u560_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>高等教育出版社</span></p>
+              </div>
+            </div>
+
+            <!-- 书号（ISBN） (单元格) -->
+            <div id="u561-1" class="ax_default table_cell u561" data-label="书号（ISBN）" style="width: 100px; height: 80px; left: 500px; top: 0px;visibility: inherit">
+              <img id="u561-1_img" class="img u561_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u561-1_text" class="text u561_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>9787300123451</span></p>
+              </div>
+            </div>
+
+            <!-- 价格 (单元格) -->
+            <div id="u562-1" class="ax_default table_cell u562" data-label="价格" style="width: 100px; height: 80px; left: 600px; top: 0px;visibility: inherit">
+              <img id="u562-1_img" class="img u562_img" src="images/教材信息搜索/价格_u562.png"/>
+              <div id="u562-1_text" class="text u562_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>34.4</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u554-2" class="preeval" style="width: 700px; height: 80px;">
+
+          <!-- Unnamed (表格) -->
+          <div id="u555-2" class="ax_default u555" style="visibility: inherit">
+
+            <!-- 课程名称 (单元格) -->
+            <div id="u556-2" class="ax_default table_cell u556" data-label="课程名称" style="width: 100px; height: 80px; left: 0px; top: 0px;visibility: inherit">
+              <img id="u556-2_img" class="img u556_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u556-2_text" class="text u556_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>计算机网络</span></p>
+              </div>
+            </div>
+
+            <!-- 任课教师 (单元格) -->
+            <div id="u557-2" class="ax_default table_cell u557" data-label="任课教师" style="width: 100px; height: 80px; left: 100px; top: 0px;visibility: inherit">
+              <img id="u557-2_img" class="img u557_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u557-2_text" class="text u557_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>戴红</span></p>
+              </div>
+            </div>
+
+            <!-- 教材名称 (单元格) -->
+            <div id="u558-2" class="ax_default table_cell u558" data-label="教材名称" style="width: 100px; height: 80px; left: 200px; top: 0px;visibility: inherit">
+              <img id="u558-2_img" class="img u558_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u558-2_text" class="text u558_text" style="position: absolute;left: 2px;top: 25px;width: 96px;visibility: inherit">
+                <p><span>计算机网络（第六版）</span></p>
+              </div>
+            </div>
+
+            <!-- 学分 (单元格) -->
+            <div id="u559-2" class="ax_default table_cell u559" data-label="学分" style="width: 100px; height: 80px; left: 300px; top: 0px;visibility: inherit">
+              <img id="u559-2_img" class="img u559_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u559-2_text" class="text u559_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>3</span></p>
+              </div>
+            </div>
+
+            <!-- 教材出版社 (单元格) -->
+            <div id="u560-2" class="ax_default table_cell u560" data-label="教材出版社" style="width: 100px; height: 80px; left: 400px; top: 0px;visibility: inherit">
+              <img id="u560-2_img" class="img u560_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u560-2_text" class="text u560_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>电子工业出版社</span></p>
+              </div>
+            </div>
+
+            <!-- 书号（ISBN） (单元格) -->
+            <div id="u561-2" class="ax_default table_cell u561" data-label="书号（ISBN）" style="width: 100px; height: 80px; left: 500px; top: 0px;visibility: inherit">
+              <img id="u561-2_img" class="img u561_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u561-2_text" class="text u561_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>9787300123452</span></p>
+              </div>
+            </div>
+
+            <!-- 价格 (单元格) -->
+            <div id="u562-2" class="ax_default table_cell u562" data-label="价格" style="width: 100px; height: 80px; left: 600px; top: 0px;visibility: inherit">
+              <img id="u562-2_img" class="img u562_img" src="images/教材信息搜索/价格_u562.png"/>
+              <div id="u562-2_text" class="text u562_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>39</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u554-3" class="preeval" style="width: 700px; height: 80px;">
+
+          <!-- Unnamed (表格) -->
+          <div id="u555-3" class="ax_default u555" style="visibility: inherit">
+
+            <!-- 课程名称 (单元格) -->
+            <div id="u556-3" class="ax_default table_cell u556" data-label="课程名称" style="width: 100px; height: 80px; left: 0px; top: 0px;visibility: inherit">
+              <img id="u556-3_img" class="img u556_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u556-3_text" class="text u556_text" style="position: absolute;left: 2px;top: 25px;width: 96px;visibility: inherit">
+                <p><span>马克思主义基本原理概论</span></p>
+              </div>
+            </div>
+
+            <!-- 任课教师 (单元格) -->
+            <div id="u557-3" class="ax_default table_cell u557" data-label="任课教师" style="width: 100px; height: 80px; left: 100px; top: 0px;visibility: inherit">
+              <img id="u557-3_img" class="img u557_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u557-3_text" class="text u557_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>袁一达</span></p>
+              </div>
+            </div>
+
+            <!-- 教材名称 (单元格) -->
+            <div id="u558-3" class="ax_default table_cell u558" data-label="教材名称" style="width: 100px; height: 80px; left: 200px; top: 0px;visibility: inherit">
+              <img id="u558-3_img" class="img u558_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u558-3_text" class="text u558_text" style="position: absolute;left: 2px;top: 17px;width: 96px;visibility: inherit">
+                <p><span>马克思主义基本原理概论（2015年修订版）</span></p>
+              </div>
+            </div>
+
+            <!-- 学分 (单元格) -->
+            <div id="u559-3" class="ax_default table_cell u559" data-label="学分" style="width: 100px; height: 80px; left: 300px; top: 0px;visibility: inherit">
+              <img id="u559-3_img" class="img u559_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u559-3_text" class="text u559_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>3</span></p>
+              </div>
+            </div>
+
+            <!-- 教材出版社 (单元格) -->
+            <div id="u560-3" class="ax_default table_cell u560" data-label="教材出版社" style="width: 100px; height: 80px; left: 400px; top: 0px;visibility: inherit">
+              <img id="u560-3_img" class="img u560_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u560-3_text" class="text u560_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>高等教育出版社</span></p>
+              </div>
+            </div>
+
+            <!-- 书号（ISBN） (单元格) -->
+            <div id="u561-3" class="ax_default table_cell u561" data-label="书号（ISBN）" style="width: 100px; height: 80px; left: 500px; top: 0px;visibility: inherit">
+              <img id="u561-3_img" class="img u561_img" src="images/教材信息搜索/课程名称_u556.png"/>
+              <div id="u561-3_text" class="text u561_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>9787300123453</span></p>
+              </div>
+            </div>
+
+            <!-- 价格 (单元格) -->
+            <div id="u562-3" class="ax_default table_cell u562" data-label="价格" style="width: 100px; height: 80px; left: 600px; top: 0px;visibility: inherit">
+              <img id="u562-3_img" class="img u562_img" src="images/教材信息搜索/价格_u562.png"/>
+              <div id="u562-3_text" class="text u562_text" style="position: absolute;left: 2px;top: 32px;width: 96px;visibility: inherit">
+                <p><span>23</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u563" class="ax_default primary_button">
+        <div id="u563_div" class=""></div>
+        <div id="u563_text" class="text ">
+          <p><span>按教材名称搜索</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u564" class="ax_default primary_button">
+        <div id="u564_div" class=""></div>
+        <div id="u564_text" class="text ">
+          <p><span>按任课教师搜索</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u565" class="ax_default" data-left="809" data-top="60" data-width="193" data-height="37">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u566" class="ax_default _一级标题">
+          <div id="u566_div" class=""></div>
+          <div id="u566_text" class="text ">
+            <p><span>教材申报系统</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u567" class="ax_default image">
+        <img id="u567_img" class="img " src="images/登陆界面/u16.png"/>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u568" class="ax_default image">
+        <img id="u568_img" class="img " src="images/登陆界面/u17.png"/>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u569" class="ax_default line">
+        <img id="u569_img" class="img " src="images/登陆界面/u18.png"/>
+      </div>
+
+      <!-- Unnamed (提交按钮) -->
+      <div id="u570" class="ax_default html_button">
+        <input id="u570_input" type="submit" value="注销账号"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u571" class="ax_default link_button">
+        <div id="u571_div" class=""></div>
+        <div id="u571_text" class="text ">
+          <p><span style="text-decoration:underline;">返回主界面</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
